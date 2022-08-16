@@ -28,6 +28,10 @@ picture {
   --white: hsl(0, 0%, 100%);
 }
 
+::selection {
+  background-color: var(--shadow-pink);
+}
+
 /* Typography */
 body {
   font: 1rem/1.3 "Inter", sans-serif;
