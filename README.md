@@ -13,6 +13,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -72,3 +73,7 @@ I have learnt how to add overlay using blend.
 - Frontend Mentor - [@halderjoydeep](https://www.frontendmentor.io/profile/halderjoydeep)
 - Github - [@halderjoydeep](https://github.com/halderjoydeep)
 - LinkedIn - [Joydeep Halder](https://linkedin.com/in/joydeep-halder)
+
+## Acknowledgments
+
+I am really thankful to [Lucas](https://www.frontendmentor.io/profile/correlucas) for the custom design idea.
