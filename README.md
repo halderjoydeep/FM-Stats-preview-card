@@ -27,11 +27,11 @@ Users should be able to:
 
 Desktop Version
 <br>
-![Desktop Screenshot](./images/screenshot-dekstop.png)
+![Desktop Screenshot](./images/screenshot-desktop-1.png)
 <br>
 Mobile Version
 <br>
-![Mobile Screenshot](./images/screenshot-mobile.png)
+![Mobile Screenshot](./images/screenshot-mobile-1.png)
 
 ### Links
 
