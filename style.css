@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
-
 /* Resetting */
 * {
   box-sizing: border-box;
@@ -34,7 +32,7 @@ picture {
 
 /* Typography */
 body {
-  font: 1rem/1.3 "Inter", sans-serif;
+  font: 1rem/1.3 Inter, sans-serif;
 }
 
 .card-title {
@@ -73,7 +71,7 @@ body {
 
 .container {
   margin: 2rem 5%;
-  max-width: 62.5rem;
+  max-width: 56.25rem;
 }
 
 .highlight {
@@ -86,11 +84,10 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background: linear-gradient(
-    to top,
-    var(--Very-dark-blue) 20%,
-    var(--purple) 90%
+    var(--shadow-pink),
+    var(--purple)
   );
-  box-shadow: 0.75rem 0.75rem 10rem 1rem var(--shadow-pink);
+  box-shadow: 0.313rem 0.313rem 0.938rem 0.313rem rgba(0, 0, 0, 0.3);
   border-radius: 1rem;
   overflow: hidden;
 }
@@ -147,20 +144,18 @@ body {
 }
 
 /* Animation */
-.card-grid,
-.card-details,
-.stats {
-  animation: slideIn 0.5s ease-in-out;
+.card-grid{
+  animation: zoomIn 0.7s ease-in-out;
 }
 
-@keyframes slideIn {
+@keyframes zoomIn {
   0% {
-    transform: translateX(-1.25rem);
+    transform: scale(0.8);
     opacity: 0;
   }
 
   100% {
-    transform: translateX(0);
+    transform: scale(1);
     opacity: 1;
   }
 }
